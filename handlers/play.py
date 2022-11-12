@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"https://t.me/Rahid_Music_Bot?startgroup=a"),
+                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATOMusic_Bot?startgroup=a"),
                 InlineKeyboardButton("🌐 Support Qurupu", url=f"https://t.me/ATOSupport"),
             ],[
                 InlineKeyboardButton("🗑️ Bağla", callback_data="cls"),
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"https://t.me/Rahid_Music_Bot?startgroup=a"),
-                InlineKeyboardButton("🌐 Digər Botlar", url=f"https://t.me/Rahid_44"),
+                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATOMusic_Bot?startgroup=a"),
+                InlineKeyboardButton("🌐 Support Qurupu", url=f"https://t.me/ATOSupport"),
             ],[
                 InlineKeyboardButton("🗑️ Bağla", callback_data="cls"),
             ],
