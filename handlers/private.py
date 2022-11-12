@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Rahid_Music_Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"hhttp://t.me/ATOMusic_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Digər Botlar", url="https://t.me/Rahid_44"
+                        "🌐 𝑨𝑻𝑶 𝑩𝑶𝑻𝑺", url="https://t.me/ATOBots"
                     ),
                     InlineKeyboardButton(
-                        "Support 🆘", url="https://t.me/Rahid_Support"
+                        "Support 🆘", url="https://t.me/ATOSupport"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Kanalım ❤️", url=f"https://t.me/qruzdaa"
+                        "Kanalım ❤️", url=f"https://t.me/ATOBots"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "🔙 Geri", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="hhttp://t.me/KenandiBrat_01")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+            "Sahib 🙇🏻", url="https://t.me/KenandiBrat_01")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="https://t.me/KenandiBrat_01")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="https://t.me/KenandiBrat_01")
                  ],
                  [
                      InlineKeyboardButton(
