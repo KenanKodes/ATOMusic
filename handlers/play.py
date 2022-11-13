@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ATO_Asistan"
+        user.first_name = "ATO_Asistant"
     usar = user
     wew = usar.id
     try:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATOMusic_Bot?startgroup=a"),
+                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATO_Music_Bot?startgroup=a"),
                 InlineKeyboardButton("🌐 Support Qurupu", url=f"https://t.me/ATOSupport"),
             ],[
                 InlineKeyboardButton("🗑️ Bağla", callback_data="cls"),
@@ -263,7 +263,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATOMusic_Bot?startgroup=a"),
+                InlineKeyboardButton("✅ Qrupa Əlavə Et", url=f"http://t.me/ATO_Music_Bot?startgroup=a"),
                 InlineKeyboardButton("🌐 Support Qurupu", url=f"https://t.me/ATOSupport"),
             ],[
                 InlineKeyboardButton("🗑️ Bağla", callback_data="cls"),
