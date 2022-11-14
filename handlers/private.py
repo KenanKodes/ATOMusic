@@ -7,8 +7,10 @@ from helpers.filters import command, other_filters2
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
+                await message.reply_photo(
+                "https://te.legra.ph/file/075499337227f2b0630ae.jpg",
                 caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
-        reply_markup=InlineKeyboardMarkup(
+         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
@@ -17,7 +19,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 𝑨𝑻𝑶 𝑩𝑶𝑻𝑺", url="https://t.me/ATOBots"
+                        "🌐 Digər Botlar", url="https://t.me/ATOBots"
                     ),
                     InlineKeyboardButton(
                         "Support 🆘", url="https://t.me/ATOSupport"
@@ -134,7 +136,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 𝑨𝑻𝑶 𝑩𝑶𝑻𝑺", url="https://t.me/ll_Lonely_ll"
+                        "🌐 Digər Botlar", url="https://t.me/ATOBots"
                     ),
                     InlineKeyboardButton(
                         "Support 🆘", url="https://t.me/ATOSupport"
