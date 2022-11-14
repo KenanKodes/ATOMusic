@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Kanalım ❤️", url=f"https://t.me/ATOBots"
+                        "Kanalım ❤️", url="https://t.me/ATOBots"
                     )
                 ]
                 
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Kanalım ❤️", url=f"https://t.me/ATOBots"
+                        "Kanalım ❤️", url="https://t.me/ATOBots"
                     )
                 ]
                 
