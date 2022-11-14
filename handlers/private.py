@@ -8,10 +8,11 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"hhttp://t.me/ATO_Music_Bot?startgroup=true"
+                       "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"hhttp://t.me/ATO_Music_Bot?startgroup=true"
                     )
                 ],
                 [
