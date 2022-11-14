@@ -9,8 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph/file/4e87264e057e30b75488f.jpg",
-                caption=(f"""**Salam {message.from_user.mention}👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"),
-                caption=(f"""**Salam {message.from_user.mention}\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
+                  caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
