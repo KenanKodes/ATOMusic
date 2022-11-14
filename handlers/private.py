@@ -5,7 +5,7 @@ from config import BOT_USERNAME, BOT_NAME as bot
 from helpers.filters import command, other_filters2
 # EfsaneMusicVaves tarafından düzenlendi. 
 
-@Client.on_message(command(["start", f"start@ATO_Music_Bot"]))
+@Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph/file/4e87264e057e30b75488f.jpg",
