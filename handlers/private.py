@@ -9,6 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph/file/4e87264e057e30b75488f.jpg",
+                caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"),
                 caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
          reply_markup=InlineKeyboardMarkup(
             [
@@ -42,7 +43,7 @@ async def start(_, message: Message):
 
 @Client.on_message(command(["bilgi", f"bilgi@{BOT_USERNAME}"]))
 async def bilgi(_, message: Message):
-      await message.reply_text("qeyd:\nBotun aktiv işləməsi üçün bu üç yetki vermək lazımdır ⬇️:\n-Mesaj silmə yetkisi,\n-Bağlantı ilə dəvət etmə yetkisi,\n-Səsli səhbəti yönətmə yetkisi.", 
+      await message.reply_text("qeyd:\nBotun aktiv işləməsi üçün bu üç yetki vermək lazımdır⬇️:\n-Mesaj silmə yetkisi,\n-Bağlantı ilə dəvət etmə yetkisi,\n-Səsli səhbəti yönətmə yetkisi.", 
       reply_markup=InlineKeyboardMarkup(
              [
                  [
