@@ -8,21 +8,21 @@ from helpers.filters import command, other_filters2
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://te.legra.ph/file/075499337227f2b0630ae.jpg",
+                "https://te.legra.ph/file/23346f7ac762fe9569328.jpg",
                 caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Rahid_Music_Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Digər Botlar", url="https://t.me/Rahid_44"
+                        "🌐 Digər Botlar", url="https://t.me/ATOBots"
                     ),
                     InlineKeyboardButton(
-                        "Support 🆘", url="https://t.me/Rahid_Support"
+                        "Support 🆘", url="https://t.me/ATOSupport"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "📚 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Kanalım ❤️", url=f"https://t.me/qruzdaa"
+                        "Kanalım ❤️", url=f"https://t.me/ATOSupport"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "🔙 Geri", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+            "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Rahid_2003")
+                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,15 +131,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Rahid_Music_Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Digər Botlar", url="https://t.me/Rahid_44"
+                        "🌐 Digər Botlar", url="https://t.me/ATOBots"
                     ),
                     InlineKeyboardButton(
-                        "Support 🆘", url="https://t.me/Rahid_Support"
+                        "Support 🆘", url="https://t.me/ATOSupport"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📚 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Kanalım ❤️", url=f"https://t.me/qruzdaa"
+                        "Kanalım ❤️", url=f"https://t.me/ATOSupport"
                     )
                 ]
                 
