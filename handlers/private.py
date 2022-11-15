@@ -5,16 +5,16 @@ from config import BOT_USERNAME, BOT_NAME as bot
 from helpers.filters import command, other_filters2
 # EfsaneMusicVaves tarafından düzenlendi. 
 
-@Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
+@Client.on_message(command(["start", f"start{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
-                "https://te.legra.ph/file/23346f7ac762fe9569328.jpg",
+                "https://te.legra.ph/file/3d676281dc5b7b2e90f43.jpg",
                 caption=(f"""**Salam {message.from_user.mention} 👋\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Music_032Bot?startgroup=true"
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "🔙 Geri", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
+                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
+            "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
+                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/ReaLcHaT_OWNER")
+                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Music_032Bot?startgroup=true"
                     )
                 ],
                 [
