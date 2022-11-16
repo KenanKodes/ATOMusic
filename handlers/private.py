@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Music_032Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "🔙 Geri", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
+                         "Sahib 🙇🏻", url="https://t.me/OprexydeBileceyler")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
+            "Sahib 🙇🏻", url="https://t.me/OprexydeBileceyler")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
+                         "Sahib 🙇🏻", url="https://t.me/OprexydeBileceyler")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "Sahib 🙇🏻", url="https://t.me/Vaqifdidee")
+                         "Sahib 🙇🏻", url="https://t.me/OprexydeBileceyler")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/Music_032Bot?startgroup=true"
+                        "➕ ❰ Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/ATO_Music_Bot?startgroup=true"
                     )
                 ],
                 [
